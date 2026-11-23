@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log In | Melodi-Flowershop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produktet.html">Products</a></li>
+                <li><a href="login.html" aria-current="page">Log In</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="auth-page">
+        <h1>Log In</h1>
+
+        <form class="auth-form">
+            <div class="form-field">
+                <label for="login-email">Email address</label>
+                <input
+                    type="email"
+                    id="login-email"
+                    autocomplete="username"
+                    required
+                >
+            </div>
+
+            <div class="form-field">
+                <label for="login-password">Password</label>
+                <input
+                    type="password"
+                    id="login-password"
+                    autocomplete="current-password"
+                    required
+                >
+            </div>
+
+            <button type="submit">Log In</button>
+        </form>
+
+        <p>New to Melodi-Flowershop? <a href="register.html">Create an account</a>.</p>
+    </main>
+
+    <footer>
+        <p>Melodi-Flowershop</p>
+        <a href="rreth-nesh.html">About Us</a>
+    </footer>
+</body>
+</html>
