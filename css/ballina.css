@@ -1,0 +1,179 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 8%;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    color: #B76E79;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 17px;
+    margin-bottom: 25px;
+    max-width: 500px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.slider {
+    padding: 60px 8%;
+    text-align: center;
+    background-color: #F2D7D5;
+}
+
+.slider h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #493B3B;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.slide {
+    flex: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.slider-buttons {
+    margin-top: 25px;
+}
+
+.slider-buttons button {
+    background-color: #B76E79;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin: 0 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.categories {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #B76E79;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.category-card {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.category-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.category-card h3 {
+    margin: 15px 0 10px;
+    color: #B76E79;
+}
+
+.about-preview {
+    padding: 70px 8%;
+    background-color: #F2D7D5;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.special-offer {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.special-offer h2 {
+    color: #B76E79;
+    margin-bottom: 15px;
+}
+
+.special-offer p {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .category-container {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+}
