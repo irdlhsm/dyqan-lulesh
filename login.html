@@ -6,9 +6,14 @@
     <title>Log In | Melodi-Flowershop</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/auth.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
+        <div class="logo">
+            <a href="index.html">Melodi-Flowershop</a>
+        </div>
+
         <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,6 +27,7 @@
     <main class="auth-page">
         <h1>Log In</h1>
 
+        <p class="form-status" role="status"></p>
         <form class="auth-form">
             <div class="form-field">
                 <label for="login-email">Email address</label>
@@ -43,15 +49,17 @@
                 >
             </div>
 
-            <button type="submit">Log In</button>
+            <button class="btn" type="submit">Log In</button>
         </form>
 
         <p>New to Melodi-Flowershop? <a href="register.html">Create an account</a>.</p>
     </main>
 
     <footer>
-        <p>Melodi-Flowershop</p>
-        <a href="rreth-nesh.html">About Us</a>
+        <div class="footer-content">
+            <p>Melodi-Flowershop</p>
+            <a href="rreth-nesh.html">About Us</a>
+        </div>
     </footer>
 </body>
 </html>
